@@ -21,25 +21,18 @@ class App extends React.Component {
   };
 
   handleClear = () => {
-    if ((this.state.counter = 2)) {
-      this.setState({
-        counter: 0,
-        currNum: "",
-        secondNum: "",
-        thirdNum: "",
-        sign: "",
-        result: "0",
-        init: "CE",
-        prevAns: "",
-        prevResult: "",
-        prevSign: "",
-        evaluated: false,
-      });
-    } else if (this.state.evaluated) {
-      this.setState({
-        thirdNum: this.state.thirdNum.substring(0, this.state.thirdNum.length),
-      });
-    }
+    this.setState({
+      currNum: "",
+      secondNum: "",
+      thirdNum: "",
+      sign: "",
+      result: "0",
+      init: "CE",
+      prevAns: "",
+      prevResult: "",
+      prevSign: "",
+      evaluated: false,
+    });
   };
   handleClick = (e) => {
     if (this.state.result.length > 0) {
