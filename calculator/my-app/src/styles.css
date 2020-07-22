@@ -1,0 +1,74 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+body {
+  background: url("./images/file.img");
+  background-size: cover;
+}
+.text {
+  padding-top: 1em;
+}
+button {
+  height: 90px;
+  width: 100px;
+
+  border: 0.0001em solid silver;
+  border-radius: 1%;
+  background-color: #666664;
+  color: white;
+
+  font-family: Arial;
+  border: solid 0.5px black;
+  font-size: 1.9em;
+  outline: none;
+  cursor: pointer;
+}
+
+button:active {
+  background: silver;
+}
+.zero {
+  width: 200px;
+}
+
+.operators {
+  background-color: orange;
+}
+.display {
+  text-align: right;
+  padding-right: 20px;
+  padding-left: 20px;
+  background: #262a2d;
+  height: 150px;
+  width: 360px;
+  font-size: 4em;
+  border-radius: 2%;
+  color: white;
+  font-family: Arial;
+  font-weight: light;
+}
+.container {
+  position: relative;
+  align-items: center;
+  align-content: center;
+}
+.text {
+  color: #f5f8fa;
+  font-size: 1em;
+  font-weight: 50;
+  letter-spacing: 1px;
+  font-family: Roboto;
+}
+.others {
+  background: #373d42;
+}
+.person {
+  color: lightsalmon;
+  font-family: monospace;
+  margin-top: 2.7em;
+}
