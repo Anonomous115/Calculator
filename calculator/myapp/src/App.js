@@ -101,7 +101,11 @@ class App extends React.Component {
         },
       };
 
-      if (this.state.sign !== "" && !this.state.evaluated) {
+      if (
+        this.state.sign !== "" &&
+        !this.state.evaluated &&
+        this.state.result !== ""
+      ) {
         this.setState({
           result: answer[this.state.sign](
             this.state.currNum,
